@@ -7,81 +7,78 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <img src="banner2.png" alt="Баннер" class="banner-image">
 
-    <header class="banner">
-        <img src="banner.png" alt="Баннер" class="banner-image">
-
-    <nav class="main-nav">
-        <div class="nav-left">
-            <div class="logo">
-                <img src="logo.png" alt="">
+        <nav>
+            <div class="nav__title">
+                <div class="nav__logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <h1 class="nav__title--text">Student Rowing League</h1>
             </div>
-            <h1 class="site-title">Student Rowing League</h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Календарь</a></li>
-            <li><a href="#">Дивизионы</a></li>
-            <li><a href="#">Участники</a></li>
-            <li><a href="#">Рейтинг</a></li>
-            <li><a href="#">Медиа</a></li>
-            <li><a href="#">Документы</a></li>
-        </ul>
-    </nav>
+            <ul class="nav__links">
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Календарь</a></li>
+                <li><a href="#">Дивизионы</a></li>
+                <li><a href="#">Участники</a></li>
+                <li><a href="#">Рейтинг</a></li>
+                <li><a href="#">Медиа</a></li>
+                <li><a href="#">Документы</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- переделать на grid -->
-    <div class="content"> 
+    <main> 
         <aside class="left-column">
             <div class="score-table">
-                <h3 class="title-table">Рейтинг - Мужчины</h3>
+                <h3 class="score-table__title">Рейтинг - Мужчины</h3>
                 <ul>
-                    <div class="list-item">
-                        <div class="score-tablle-text">Элемент 1</div>
-                        <div class="rating">750</div>
-                    </div>
-                    <div class="list-item">
-                        <div class="text">Элемент 2</div>
-                        <div class="rating">520</div>
-                    </div>
-                    <div class="list-item">
-                        <div class="text">Элемент 3</div>
-                        <div class="rating">1000</div>
-                    </div>
-                    <div class="list-item">
-                        <div class="text">Элемент 4</div>
-                        <div class="rating">480</div>
-                    </div>
-                    <div class="list-item">
-                        <div class="text">Элемент 5</div>
-                        <div class="rating">480</div>
-                    </div>
+                    <li class="list-item">
+                        <span class="score-tablle-text">Элемент 1</span>
+                        <span class="rating">750</span>
+                    </li>
+                    <li class="list-item">
+                        <span class="text">Элемент 2</span>
+                        <span class="rating">520</span>
+                    </li>
+                    <li class="list-item">
+                        <span class="text">Элемент 3</span>
+                        <span class="rating">1000</span>
+                    </li>
+                    <li class="list-item">
+                        <span class="text">Элемент 4</span>
+                        <span class="rating">480</span>
+                    </li>
+                    <li class="list-item">
+                        <span class="text">Элемент 5</span>
+                        <span class="rating">480</span>
+                    </li>
                 </ul>
             </div>
             <div class="score-table">
-                <h3 class="title-table">Рейтинг - Женщины</h3>
+                <h3 class="score-table__title">Рейтинг - Женщины</h3>
                 <ul>
                     <ul>
-                        <div class="list-item">
-                            <div class="score-tablle-text">Элемент 1</div>
-                            <div class="rating">750</div>
-                        </div>
-                        <div class="list-item">
-                            <div class="text">Элемент 2</div>
-                            <div class="rating">520</div>
-                        </div>
-                        <div class="list-item">
-                            <div class="text">Элемент 3</div>
-                            <div class="rating">1000</div>
-                        </div>
-                        <div class="list-item">
-                            <div class="text">Элемент 4</div>
-                            <div class="rating">480</div>
-                        </div>
-                        <div class="list-item">
-                            <div class="text">Элемент 5</div>
-                            <div class="rating">480</div>
-                        </div>
+                        <li class="list-item">
+                            <span class="score-tablle-text">Элемент 1</span>
+                            <span class="rating">750</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="text">Элемент 2</span>
+                            <span class="rating">520</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="text">Элемент 3</span>
+                            <span class="rating">1000</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="text">Элемент 4</span>
+                            <span class="rating">480</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="text">Элемент 5</span>
+                            <span class="rating">480</span>
+                        </li>
                     </ul>
                 </ul>
             </div>
@@ -99,7 +96,7 @@
             </div>
         </aside>
         
-    </div>
+    </main>
     
     <div class="art"">
         <pre>
@@ -121,13 +118,12 @@
     </div>
     
 
-    <footer class="footer">
+    <footer>
         <div class="footer-line">
-            <h1 class="footer-text">Student Rowing League footer</h1>
+            <h1 class="footer__text">Student Rowing League footer</h1>
         </div>
         <img src="footer.png" alt="Нижний баннер" class="banner-image">
-    </nav>
-</footer>
+    </footer>
     
 
 </body>
